@@ -198,7 +198,9 @@
   line-height: 1;
 
   @include media-query($on-laptop) {
-    font-size: 4vw;
+    font-size: 7vw;
+    font-weight: bold;
+
   }
 }
 

@@ -385,7 +385,8 @@ cite {
   line-height: 1; }
   @media screen and (max-width: 800px) {
     .post-title {
-      font-size: 4vw; } }
+      font-size: 7vw;
+      font-weight: bold; } }
 
 #markdown-toc {
   float: right;
