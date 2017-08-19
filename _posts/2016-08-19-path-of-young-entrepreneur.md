@@ -16,7 +16,7 @@ tags:  book life startup
 
 서두에 언급했듯이 창업가의 일상은 '두더지 게임'이다.
 
-[![두더지 게임]({{site.baseurl}}/images/dooduji_pic.jpg)](https://lh3.ggpht.com/wyeNZWQhbek6FhYaY18RR042VFsqNtg60Eci1Lwtnj7ffYR8YLr2_AQyFlBUrXcjOg=w300)
+[![두더지 게임]({{site.baseurl}}/images/dooduji_pic.png)](https://lh3.ggpht.com/wyeNZWQhbek6FhYaY18RR042VFsqNtg60Eci1Lwtnj7ffYR8YLr2_AQyFlBUrXcjOg=w300)
 
 사실 엄밀히 이야기하면 매일 두더지가 나오는 구멍이 늘어나는 게임이다. 새로운 문제를 당면하고 기존의 문제에서 파생되는 문제를 또 당면하고 순간의 결정에 의해 많은 것이 변할 수 있는 상황에 놓여 있는 것이다. 사람은 본능적으로 최적의 길을 찾기 마련이기에 항상 답을 구하는데 '중도보다 편향이 낫다'는 말이 있듯 빈출 문제에 대한 간편 해답을 정해주는 듯한 '사이다'의 기분을 느꼈다. 임정민 총괄님의 말이 모든 상황에 들어맞지는 않겠으나 때로는 단순하고 빠르게 넘어가는 게 답이라는 것을 경험적으로 많이 느꼈기에 매일 성장통을 겪는 창업가들에게 달콤한 사탕이 될 수 있을테다.
 
