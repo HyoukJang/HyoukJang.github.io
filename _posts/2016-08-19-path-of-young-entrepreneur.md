@@ -1,14 +1,14 @@
 ---
 published: ture
 layout: post
-title: "젊은 창업가의 길"
+title: "젊은 창업가의 일"
 author: JH
 categories: book
 tags:  book life startup
 
 ---
 
-두더지 게임을 하듯 매일 다양한 상황의 카드를 뒤집는 창업가의 일상. 기업가, 투자자, 그리고 지금은 구글캠퍼스 서울의 수장으로서 스타트업을 돕고 있는 임정민 총괄님의 ['창업가의 길'](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&barcode=9791187289197#N)을 읽고 깊은 위로와 젊은 청년 창업가로서의 삶과 미래를 상상하다.
+<'창업가의 일'을 읽고> 두더지 게임을 하듯 매일 다양한 상황의 카드를 뒤집는 창업가의 일상. 기업가, 투자자, 그리고 지금은 구글캠퍼스 서울의 수장으로서 스타트업을 돕고 있는 임정민 총괄님의 ['창업가의 길'](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&barcode=9791187289197#N)을 읽고 깊은 위로와 젊은 청년 창업가로서의 삶과 미래를 상상하다.
 
 [![창업가의 일]({{site.baseurl}}/images/jm_book_cover.jpg)](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&barcode=9791187289197#N)
 
