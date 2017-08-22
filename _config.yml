@@ -18,6 +18,13 @@ google_analytics_key: UA-98488675-1 # put YOUR key here to enable tracking! (bla
 #aboutme: Hi, this is Lijia Yu.  # these are shown on aboutme-sidebar.
 #aboutme_photo: https://i.imgur.com/15BT1.jpg # your photo.
 
+### social plugin
+twitter_username:     
+linkedin_username: andrew-hyouk-jang
+google_plus_username: 
+facebook_username: hyouk.jang
+dribbble_username:
+
 
 ### Site setting:
 ShowContactInfo: "False" 

@@ -3,7 +3,7 @@ published: ture
 layout: post
 title: "검증의 단계에서의 고난"
 author: JH
-categories: book_review
+categories: book
 tags:  book life startup
 
 ---
