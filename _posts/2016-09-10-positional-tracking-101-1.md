@@ -2,7 +2,7 @@
 
 published: true
 layout: post
-title: "포지셔널 트래킹 101 - '측위가 뭐임?'"
+title: "포지셔널 트래킹 101 - 1강. '측위가 뭐임?'"
 author: JH
 categories: VR
 tags:  VR tech polariant virtual-reality positional-tracking 측위
