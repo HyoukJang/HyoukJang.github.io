@@ -13,11 +13,11 @@ tags:  VR tech polariant virtual-reality positional-tracking 측위
 
 위치를 추적하는 방식으로는 크게 3가지 방법으로 나눌 수 있다.
 
-**첫째, 각도를 활용한 방식(AOA, Angle of Arrival)**
+첫째, 각도를 활용한 방식(AOA, Angle of Arrival)
 
-**둘째, 신호의 전송시간을 활용한 방식(TOA(Time of Arrival), TDOA(Time difference of Arrival))**
+둘째, 신호의 전송시간을 활용한 방식(TOA(Time of Arrival), TDOA(Time difference of Arrival))
 
-**셋째, 신호의 세기를 측정하여 위치를 추적하는 방식(RSSI, Received Signal Strength indication)**
+셋째, 신호의 세기를 측정하여 위치를 추적하는 방식(RSSI, Received Signal Strength indication)
 
 각각의 방식은 장점과 단점이 뚜렷하고 각 방식의 최대한 장점을 살릴 수 있는 무선신호와 짝을 지은 조합이 존재하며 그들이 '융합'되어 활용하고 있다. 그 말인 즉슨, 전자기파의 파장대에 따라 물리학적 특징이 뚜렷하고 이 특징에 가장 부합하는 방식이 위에 언급된 셋 중에 존재하고 본 조합이 구체적인 요구사항에 정확히 부합하는 영역에서만 실제로 제 기능을 할 수 있다는 점이다. 바로 이 점이 소위 말하는 실시간 위치 추적 서비스(RTLS, Real-time location service) 분야에서 여러 솔루션이 파편화되어 있는 이유이기도 하다.
 
