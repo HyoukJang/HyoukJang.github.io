@@ -13,21 +13,23 @@ tags:  VR tech polariant virtual-reality positional-tracking 측위
 
 위치를 추적하는 방식으로는 크게 3가지 방법으로 나눌 수 있다.
 
-첫째, 각도를 활용한 방식(AOA, Angle of Arrival)
-둘째, 신호의 전송시간을 활용한 방식(TOA(Time of Arrival), TDOA(Time difference of Arrival))
-셋째, 신호의 세기를 측정하여 위치를 추적하는 방식(RSSI, Received Signal Strength indication)
+⋅⋅* 첫째, 각도를 활용한 방식(AOA, Angle of Arrival)
+
+⋅⋅* 둘째, 신호의 전송시간을 활용한 방식(TOA(Time of Arrival), TDOA(Time difference of Arrival))
+
+⋅⋅* 셋째, 신호의 세기를 측정하여 위치를 추적하는 방식(RSSI, Received Signal Strength indication)
 
 각각의 방식은 장점과 단점이 뚜렷하고 각 방식의 최대한 장점을 살릴 수 있는 무선신호와 짝을 지은 조합이 존재하며 그들이 '융합'되어 활용하고 있다. 그 말인 즉슨, 전자기파의 파장대에 따라 물리학적 특징이 뚜렷하고 이 특징에 가장 부합하는 방식이 위에 언급된 셋 중에 존재하고 본 조합이 구체적인 요구사항에 정확히 부합하는 영역에서만 실제로 제 기능을 할 수 있다는 점이다. 바로 이 점이 소위 말하는 실시간 위치 추적 서비스(RTLS, Real-time location service) 분야에서 여러 솔루션이 파편화되어 있는 이유이기도 하다.
 
 차근차근 위의 방식들을 간단하지만 명료하게 알아보자.
 
-첫째, 각도를 활용한 방식(AOA, Angle of Arrival)
+**첫째, 각도를 활용한 방식(AOA, Angle of Arrival)**
 
 ![Angle of Arrival](https://www.researchgate.net/publication/258390460/figure/fig9/AS:328441036591115@1455317854047/Angle-of-arrival-positioning-method.png)
 
 무선신호를 받는 수신부(Receiver)은 여러개의 안테나로 이루어진 다중 안테나로 구성된다. 다중 안테나의 각 안테나에서 수집되는 무선신호는 입사각(Incident angle)에 따라서 신호의 위상(phase)가 다르고 다중 안테나 속 안테나 사이의 거리와 위상차를 활용하여 수신부로 입사하는 각도를 인지한다. 잘 배치된 3개 이상의 송신부(Sender)로부터 각각의 입사각을 알고 있으면 위의 그림처럼 겹치는 영역에 해당하는 위치를 알아낼 수 있다. 특수 목적의 국방분야에서의 측위 기술에서도 쓰이나 상대적으로 비용이 많이 들며 컴퓨팅 리소스가 상대적으로 많이 드는 신호처리 방식으로 알려져 있다.
 
-둘째, 신호의 전송시간을 활용한 방식(TOA(Time of Arrival), TDOA(Time difference of Arrival))
+**둘째, 신호의 전송시간을 활용한 방식(TOA(Time of Arrival), TDOA(Time difference of Arrival))**
 
 a) TOA(Time of Arrival)
 
@@ -43,7 +45,7 @@ b) TDOA(Time Difference of Arrival)
 
 시간 차를 이용하는 TDOA 방식이 훨씬 널리 쓰이고 있으며 '3개 이상의 송신부가 있고 잘 정돈된 상황'에서는 가장 좋은 퍼포먼스를 보인다고 알려져 있는 방식이다. 그러나 시간 동기화라는 대전제가 외부 자극으로부터 자유로울 수 없음을 반증한다.
 
-셋째, 신호의 세기를 측정하여 위치를 추적하는 방식(RSSI, Received Signal Strength indication)
+**셋째, 신호의 세기를 측정하여 위치를 추적하는 방식(RSSI, Received Signal Strength indication)**
 
 2강에서 알아본 것처럼 신호의 진폭을 통한 '세기'를 통해 위치를 추적하는 방식이다. 잘 알고 있듯이 신호의 근간으로부터 거리가 멀어짐에 따라 제곱배로 감소하는 원리를 활용하여 거리를 추적하는 방식이다. 역시나 기존 무선신호 방식에서는 3개 이상의 송신부가 필요하나 시간 동기화가 필요하지 않다. 그러나 다경로(Multipath) 현상으로 인한 간섭에 취약하고 NLOS(Non line-of-sight) 상황에서는 오차가 급격히 커진다.
 
@@ -51,4 +53,4 @@ b) TDOA(Time Difference of Arrival)
 
 그러나 UWB가 가진 전파영역대의 물리학적인 한계로 인한 문제점인 '액체'를 많이 가지고 있는 인간의 몸을 통과할 때 에러가 커진다는 것과 TDOA 방식을 이용할 때 신호원이 외부 자극, 이를테면 진동, 움직임에 취약하다는 점, 3개 이상의 송신부가 존재하고 간섭을 최대한 줄이기 위해 트래킹 영역에 대한 Cell-planning시 높은 비용이 들 수 있다는 점이 등 '잘 정돈된 상황'에서만 '쓰이고 있다는 현실을 보여준다.
 
-다음 시간에는 폴라리언트의 '편광을 활용한 3차원 측위 기술'이 이를 보완하거나 대체할 수 있는 가능성이 어떻게 있는지 찬찬히 알아볼 것이다. 
+다음 시간에는 폴라리언트의 '편광을 활용한 3차원 측위 기술'이 이를 보완하거나 대체할 수 있는 가능성이 어떻게 있는지 찬찬히 알아볼 것이다.
