@@ -20,15 +20,15 @@ google_analytics_key: UA-98488675-1 # put YOUR key here to enable tracking! (bla
 #aboutme_photo: https://i.imgur.com/15BT1.jpg # your photo.
 
 ### social plugin
-twitter_username:     
+twitter_username:
 linkedin_username: andrew-hyouk-jang
-google_plus_username: 
+google_plus_username:
 facebook_username: hyouk.jang
 dribbble_username:
 
 
 ### Site setting:
-ShowContactInfo: "False" 
+ShowContactInfo: "False"
 default_column: "one" # blog style: two columns, if default_column != "two", you will see a one column blog.
 default_locale: "en" # blog sidebar language set, only include: English(en) and Chinese (cn)
 
@@ -50,8 +50,8 @@ locales:
 ### your Blogroll info, only name can shown on the page.
 
 #Blogroll:
-#    - name: Yihui Xie's Blog       
-#      href: http://yihui.name      
+#    - name: Yihui Xie's Blog
+#      href: http://yihui.name
 #      title: author of knitr, I think he is the Small Forward of R world now.
 
 ### Build settings
@@ -60,6 +60,6 @@ kramdown:
         input: GFM
         syntax_highlighter: rouge
 highlighter: rouge
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 5
 exclude: [Rakefile]
