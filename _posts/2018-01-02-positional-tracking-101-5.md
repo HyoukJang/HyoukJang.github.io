@@ -21,7 +21,7 @@ tags:  VR tech polariant virtual-reality positional-tracking 측위
 
 '실내 자율주행 로봇'을 설명하기 전에 앞서 수많은 미디어들에서 말하는 '자율주행(Self-drive)'이 어떤 기술 요소로 구성되어 있는지부터 살펴보고 가자.
 
-![자율주행(Self-drive)의 요소 기술]({{site.baseurl}}/images/self-drive-car.jpg)
+![자율주행(Self-drive)의 요소 기술]({{site.baseurl}}/images/self-driving-1.png)
 
 자율주행을 가능케하는 기술은 크게 세가지의 영역으로 나눌 수 있다. 위의 그림에서 보이는 것처럼 SLAM(Simultaneous Localization and Mapping) 영역, Odometry 영역 그리고 Ground truth 영역이 그 것이다.
 
@@ -29,7 +29,7 @@ tags:  VR tech polariant virtual-reality positional-tracking 측위
 
 그것은 바로 로봇이 '임의의 공간'을 주행한다고 가정하기 때문이다. 정확한 지도가 주어져 있는 상황 혹은 항상 약속된 위치에서 로봇의 위치 추정을 시작한다면 Localization만 수행하면 되지만 지도도 주어져 있지 않고 지도에서의 로봇의 위치도 알 수 없을 때 로봇이 주변 환경을 센서로 감지해가면서 지도를 만들고 자신의 위치까지 추정해야하므로 '동시적'으로 해야한다는 것이다. 직관적으로도 알 수 있듯이 Localization이나 Mapping 둘 중 한가지만 해도 계산량이 벅찬데, 두 가지를 한꺼번에 하는 SLAM은 컴퓨팅 파워의 측면에서도 상당한 오버헤드가 있다.
 
-![Google's Self-driving car]({{site.baseurl}}/images/self-driving-2.png)
+![Google's Self-driving car]({{site.baseurl}}/images/self-drive-car.jpg)
 
 실외에서의 로봇이라고 하면 '자동차'이고 위에 보이는 그림처럼 자율주행차에 달려있는 수 많은 센서가 위에서 언급한 세 가지 영역에 속하는 것이다.
 
@@ -59,3 +59,5 @@ tags:  VR tech polariant virtual-reality positional-tracking 측위
 위의 동영상에서 27초 부근에서 갑자기 추정하는 위치의 후보가 늘어나는 모습을 볼 수 있는데 바로 이 점이 문제점인 것이다.
 
 Ground truth의 부재가 만들어내는 위의 세 가지 문제는 임의의 위치에서 자율적으로 돌아다니고 더 나아가 관제센터에서 정밀하게 위치를 제어하기 위해서는 필히 해결되어야하는 점이며 이에 PLS 기술이 명확히 기여할 수 있는 것이다. 단일 광원하에서 빛이 도달하는 범위내에서는 수많은 로봇의 절대적인 위치를 각각 계산해낼 수 있는 본 기술은 실내 자율 주행의 'Ground truth'를 제공해줌으로서 '실내의 GPS'로 거듭날 것이다.
+
+![PLS 정복]({{site.baseurl}}/images/pls-key.png)
