@@ -21,15 +21,15 @@ tags:  VR tech polariant virtual-reality positional-tracking 측위
 
 '실내 자율주행 로봇'을 설명하기 전에 앞서 수많은 미디어들에서 말하는 '자율주행(Self-drive)'이 어떤 기술 요소로 구성되어 있는지부터 살펴보고 가자.
 
-![자율주행(Self-drive)의 요소 기술]({{site.baseurl}}/images/self-driving-1.png)
+![자율주행(Self-drive)의 요소 기술]({{site.baseurl}}/images/self-drive-car.jpg)
 
 자율주행을 가능케하는 기술은 크게 세가지의 영역으로 나눌 수 있다. 위의 그림에서 보이는 것처럼 SLAM(Simultaneous Localization and Mapping) 영역, Odometry 영역 그리고 Ground truth 영역이 그 것이다.
 
 쉽게 말하면 로봇이 자율주행하기 위해서는 자체의 위치가 지도 상에서 어디인지를 파악(SLAM)하고 부드러운 주행을 위해 바퀴의 회전수 혹은 imu 센서를 통해 얻은 주행 정보(Odometry)를 얻으며 마지막으로 이 모든 정보를 정확하게 확인할 수 있는 참 값(Ground truth)을 필요로 하는 것이다. 다른 것은 직관적으로 이해가 가는데 굳이 SLAM 용어에 'Simultaneous(동시의)'가 붙는 이유는 무엇일까?
 
-그것은 바로 로봇이 '임의의 공간'을 주행한다고 가정하기 때문이다. 정확한 지도가 주어져 있는 상황 혹은 항상 약속된 위치에서 로봇의 위치 추정을 시작한다면 Localization만 수행하면 되지만 지도도 주어져 있지 않고 지도에서의 로봇의 위치도 알 수 없을 때 로봇이 주변 환경을 센서로 감지해가면서 지도를 만들고 자신의 위치까지 추정하는 작업 해야하므로 '동시적'으로 해야한다는 것이다. 직관적으로도 알 수 있듯이 Localization이나 Mapping 둘 중 한가지만 해도 계산량이 벅찬데, 두 가지를 한꺼번에 하는 SLAM은 컴퓨팅 파워의 측면에서도 상당한 오버헤드가 있다.
+그것은 바로 로봇이 '임의의 공간'을 주행한다고 가정하기 때문이다. 정확한 지도가 주어져 있는 상황 혹은 항상 약속된 위치에서 로봇의 위치 추정을 시작한다면 Localization만 수행하면 되지만 지도도 주어져 있지 않고 지도에서의 로봇의 위치도 알 수 없을 때 로봇이 주변 환경을 센서로 감지해가면서 지도를 만들고 자신의 위치까지 추정해야하므로 '동시적'으로 해야한다는 것이다. 직관적으로도 알 수 있듯이 Localization이나 Mapping 둘 중 한가지만 해도 계산량이 벅찬데, 두 가지를 한꺼번에 하는 SLAM은 컴퓨팅 파워의 측면에서도 상당한 오버헤드가 있다.
 
-![Google's Self-driving car](http://www.outsidethebeltway.com/wp-content/uploads/2010/10/google-car-drives-itself-nyt.jpg)
+![Google's Self-driving car]({{site.baseurl}}/images/self-driving-2.png)
 
 실외에서의 로봇이라고 하면 '자동차'이고 위에 보이는 그림처럼 자율주행차에 달려있는 수 많은 센서가 위에서 언급한 세 가지 영역에 속하는 것이다.
 
