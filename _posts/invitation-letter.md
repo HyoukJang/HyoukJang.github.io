@@ -1,10 +1,28 @@
 ---
 
-published: false
+published: true
 layout: post
-title: "BIRTHDAY - INVITATION LETTER"
+title: "INVITATION LETTER"
 author: JH
 categories: BIRTHDAY
 tags:  BIRTHDAY
 
 ---
+
+안녕하세요, 장 혁입니다.
+
+올해 3월 12일이면 제가 어느 덧 살아온지 9132째 되는 날이라고 하는 군요. 제게 주어진 귀한 생명을 가지고 여태껏 살아오게 하심을 감사하는 생일 맞이하여 마치 어릴적 진부한 초등학교 생일 파티 마냥 스스로 차려먹고자 합니다.
+
+![장 혁의 생일]({{site.baseurl}}/images/jh.junior.png)
+
+* 장 소 : THE VIBE ([서울특별시 강남구 강남대로132길 4 4층](http://naver.me/xUmuOJVD))
+* 시 간 : 2018년 3월 16일(금), 오후 8시 30분 ~
+* 주 제 : '장 혁'의 생일
+* 다들 배고프신 분들도 있을 터이니 피자와 맥주를 준비하려고 합니다.
+*
+
+제가 저의 삶의 동료들과 최근에 런칭한 The VIBE라는 공간에서 제가 좋아하는 다양한 분들과 모여서 이야기하고 즐거운 시간을 갖고자 하니 부담스러워마시고 참석해주시면 앞으로 30000 여일의 남은 생애을 더욱 긍정적으로 세상으로 만들어 나가는 데 힘쓰겠습니다.
+
+감사합니다.
+
+장 혁 드림
