@@ -6,6 +6,7 @@ title: "초대장"
 author: JH
 categories: BIRTHDAY
 tags:  BIRTHDAY
+open: false
 
 ---
 

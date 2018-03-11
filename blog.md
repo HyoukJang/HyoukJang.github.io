@@ -7,9 +7,9 @@ permalink: /
 
 <div class="home">
   <div class="post" itemscope itemtype="http://schema.org/BlogPosting" >
-    
+
     {% for post in paginator.posts %}
-  
+    {$ if post.open != false %}
     <header class="post-header">
       <h1 itemprop="name" class="post-title">
         <a itemprop="url" class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -35,8 +35,8 @@ permalink: /
     <article class="post-content" itemprop="articleBody">
       {{ post.excerpt }}
     </article> <hr />
-    
+    {$ endif %}
     {% endfor %}
-  
+
   </div>
 </div>
