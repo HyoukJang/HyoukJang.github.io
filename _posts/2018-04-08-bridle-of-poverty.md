@@ -2,7 +2,7 @@
 
 published: true
 layout: post
-title: "한 군인의 퇴역과 가난의 굴레 그리고 번영의 길"
+title: "한 군인의 퇴역과 가난의 굴레 그리고 번영"
 author: JH
 categories: memoirs
 tags:  thank
