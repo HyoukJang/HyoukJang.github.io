@@ -24,6 +24,6 @@ open: false
 
 생후 9138일 째 되는 날
 
-{% include d3.html %}
-
 장 혁 드림
+
+{% include d3.html %}
