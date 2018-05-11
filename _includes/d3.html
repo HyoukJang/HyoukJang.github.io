@@ -1,5 +1,5 @@
 
-<div id="example"></div>
+<div id="wordcloud_container" class="svg-container"></div>
 
 
 
@@ -42,14 +42,14 @@
 
 
     function draw(words) {
-        d3.select("#example").append("svg")
-                .attr("width", 850)
-                .attr("height", 350)
-                .attr("class", "wordcloud")
+        d3.select("#wordcloud_container").append("svg")
+                .attr("preserveAspectRatio", "xMidYMid meet")
+                .attr("viewBox", "0 0 600 300")
+                .classed("svg-content", true)
                 .append("g")
                 // without the transform, words words would get cutoff to the left and top, they would
                 // appear outside of the SVG area
-                .attr("transform", "translate(320,200)")
+                .attr("transform", "translate(300,100)")
                 .selectAll("text")
                 .data(words)
                 .enter().append("text")
