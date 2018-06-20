@@ -4,7 +4,7 @@ layout: post
 title: '이동(移動) : 모빌리티의 혁신이 일으키는 변화'
 author: JH
 categories: tech
-tags: time consistence
+tags: mobility
 open: true
 ---
 
