@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: '이동(移動) - (1) 인트로(intro) : 모빌리티의 혁신이 일으키는 변화'
+title: '이동(移動) : 모빌리티의 혁신이 일으키는 변화'
 author: JH
 categories: tech
 tags: time consistence
