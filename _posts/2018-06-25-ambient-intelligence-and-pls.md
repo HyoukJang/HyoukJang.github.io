@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: '생활환경지능(Ambient Intelligence)과 PLS'
+title: '생활환경지능과 PLS'
 author: JH
 categories: report
 tags: 생활환경지능 PLS Polariant
@@ -12,7 +12,7 @@ open: true
 
 이러한 변화는 생활환경지능(Ambient Intelligence)라는 개념으로 정리되어 주요 IT 기업들로 하여금 보유한 기술을 통해 사람과 환경을 먼저 이해하고 적시에 적절한 정보를 선사함으로써 새로운 시장을 창출할 수 있다는 믿음을 가질 수 있게 했으며 특히 오프라인 영역에서 우리 주변에 빠른 속도로 스며들기 시작했다.
 
-본 글에서는 생활환경지능의 시대에서 폴라리언트의 실시간 실내 정밀 측위 솔루션인 PLS가 기여할 수 있는 바를 알아보고 타 요소 기술과 융합(fusion)되었을 때 어떤 부가가치를 창출할 수 있는지 사례를 통해 소개하고자 한다.
+본 글에서는 생활환경지능의 시대에서 폴라리언트의 실시간 실내 정밀 측위 솔루션인 PLS(Polarized Light Sensing)가 기여할 수 있는 바를 알아보고 타 요소 기술과 융합(fusion)되었을 때 어떤 부가가치를 창출할 수 있는지 사례를 통해 소개하고자 한다.
 
 **(1) PLS는 상황 인지 > 인프라 측위 기술**
 
