@@ -11,9 +11,9 @@ open: true
 필자가 창업한 회사의 업무 특성상 차량 전장을 비롯하여 IoT 임베디드 시스템에 대한 아키텍처를 주의깊게 살펴보게 되면서 자연스레 인공지능 가속화 칩셋에 대한 관심이 커졌다. 더욱이 최근에 구글이 발표하자마자 주문한 작은 USB 사이즈의 AI 가속화 스틱을 가지고 실시간 이미지 분류 추론을 수행하는 데모를 만들어보면서 그 성능이 꽤나 기특한 탓에 이를 파헤쳐보기로 마음먹게 되었다.
 
 
-![Google Coral_1]({{site.baseurl}}/images/coral_1.jpg)
+![Google Coral_1]({{site.baseurl}}/images/coral_1.JPG)
 
-![Google Coral_2]({{site.baseurl}}/images/coral_2.jpg)
+![Google Coral_2]({{site.baseurl}}/images/coral_2.JPG)
 
 
 
