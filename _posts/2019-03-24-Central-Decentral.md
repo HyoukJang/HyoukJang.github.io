@@ -13,8 +13,7 @@ open: true
 
 ![Google Coral_1]({{site.baseurl}}/images/coral_1.JPG){: width="400" height="400"}
 
-![Google Coral_2]({{site.baseurl}}/images/coral_2.JPG){: width="400" height="400"}
-
+#![Google Coral_2]({{site.baseurl}}/images/coral_2.JPG){: width="400" height="400"}
 
 
 본 글에서는 AI 하드웨어의 중심인 AI 전용 칩들의 현황과 주요 성능 지표를 기반으로 앞으로 전개될 관련 업계의 최종 구도를 예측해보고 그에 따른 나름의 인사이트를 시리즈로 실어보고자 한다. 
