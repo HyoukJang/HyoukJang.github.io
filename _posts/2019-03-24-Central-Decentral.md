@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: ' AI 하드웨어 : 중앙을 차지하거나 엣지를 먹거나 (1)'
+title: ' 중앙을 차지하거나 엣지를 먹거나 < AI 하드웨어 개괄> (1)'
 author: JH
 categories: Insight
 tags: NVIDIA Google Stadia TPU
