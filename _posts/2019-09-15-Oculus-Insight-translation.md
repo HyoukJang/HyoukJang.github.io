@@ -20,6 +20,12 @@ Facebook AI 에서 공개한 블로그 포스트 중 2019년 08월 22일에 릴�
 
 작년 Oculus Connect 행사에서 Oculus Quest와 Rift S에도 적용가능한 최신의 기술이며 VR 기술에 AI 시스템을 깊게 적용한 Oculus Insight의 일부를 공개했습니다. Oculus Insight는 가장 처음으로 완벽히 무선을 지원하는 6 자유도(6-DoF)의 헤드셋과 컨트롤러를 지원하는 컨슈머향 AR/VR 디바이스입니다. 가장 아랫단 부터 만들어졌으며, 가장 최첨단의 컴퓨터 비전(CV, Computer Vision) 시스템과 visual-inertial SLAM의 스택을 보유하였습니다.
 
+
+<div class="video-container"> 
+    <iframe width="100%" src="https://www.youtube.com/embed/nrj3JE-NHMw" frameborder="0" allowfullscreen></iframe>
+</div> 
+
+
 Oculus Insigt는 VR에서 가장 실제적인 경험을 느끼도록 하기 위해 VR 내의 당신의 정밀한 무브먼트를 반영하기 위해서 매 밀리초마다 헤드셋과 컨트롤러의 정확한 실시간 위치를 계산합니다. 이는 이용자의 헤드셋 움직임을 트래킹하기 위해 SLAM을 이용하고 컨트롤러의 위치를 트래킹하기 위해 constellation tracking을 이용합니다.
 
 
@@ -75,6 +81,6 @@ Oculus Insight는 AR 및 VR의 새로운 무선 기술을 위한 토대이며, Q
 
 Authors
 
-Joel Hesch(Engineering Manager)
-Anna Kozminksi(Software Program Manager)
-Oskar Linde(Lead Machine Perception Architect)
+- Joel Hesch(Engineering Manager)
+- Anna Kozminksi(Software Program Manager)
+- Oskar Linde(Lead Machine Perception Architect)
