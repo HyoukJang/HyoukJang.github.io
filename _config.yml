@@ -6,9 +6,8 @@ author: Andrew Hyouk JANG
 email: hyouk.a.jang@gmail.com
 description: "The blog of Hyouk JANG"
 keywords: "Data, Informatics, Mathematics, Physics, R, Python, Virtual Reality, Hardware, Hyouk JANG, Engineer, Entrepreneur"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://hyoukjang.github.io/blog" # the base hostname & protocol for your site
-blogurl: "https://hyoukjang.github.io/blog"
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
+url: "https://hyoukjang.github.io" # the base hostname & protocol for your site
 locale: en_US
 
 ### Personal info and site tools info:
