@@ -12,7 +12,7 @@ permalink: /
     {$ if post.open != false %}
     <header class="post-header">
       <h1 itemprop="name" class="post-title">
-        <a itemprop="url" class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a itemprop="url" class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
       </h1>
       <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
       <p class="post-meta">
