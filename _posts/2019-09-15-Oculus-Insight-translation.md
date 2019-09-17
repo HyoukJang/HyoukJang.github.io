@@ -24,8 +24,7 @@ Facebook AI 에서 공개한 블로그 포스트 중 2019년 08월 22일에 릴�
 
 
 <div class="video-container"> 
-    <iframe width="100%" src="https://www.youtube.com/embed/nrj3JE-NHMw" frameborder="0" allowfullscreen></iframe>
-</div> 
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FFacebookAI%2Fvideos%2F1637031619764928%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe></div> 
 
 
 Oculus Insigt는 VR에서 가장 실제적인 경험을 느끼도록 하기 위해 VR 내의 당신의 정밀한 무브먼트를 반영하기 위해서 매 밀리초마다 헤드셋과 컨트롤러의 정확한 실시간 위치를 계산합니다. 이는 이용자의 헤드셋 움직임을 트래킹하기 위해 SLAM을 이용하고 컨트롤러의 위치를 트래킹하기 위해 constellation tracking을 이용합니다.
