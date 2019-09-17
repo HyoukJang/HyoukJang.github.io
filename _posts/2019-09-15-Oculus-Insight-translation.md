@@ -48,7 +48,7 @@ Oculus Insight 시스템은 주어진 실제 공간의 다른 물체들과 가�
 SLAM의 첫 번째 주요 응용 분야는 로봇 공학, 특히 초기 자율 주행 차량에서 대량의 컴퓨팅 리소스 (여러 온보드 PC)에 의존하고 값 비싼 (내비게이션 등급 IMU와 같은) 센서와 고전력을 요구하는 센서(예 : 3D Lidar 시스템)를 사용했습니다. 최근에는 엔지니어들이 게임 및 카메라 필터의 AR 효과를 위해 휴대폰에서도 SLAM을 실행할 수있는 기술을 도입했습니다.
 
 <div class="video-container"> 
-    <iframe width="100%" src="https://www.facebook.com/FacebookAI/videos/416290159243941/" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FFacebookAI%2Fvideos%2F416290159243941%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 </div> 
 
 
