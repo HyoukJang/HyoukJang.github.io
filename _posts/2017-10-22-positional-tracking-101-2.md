@@ -1,6 +1,6 @@
 ---
 
-published: true
+published: false
 layout: post
 title: "포지셔널 트래킹 101 - 2강. '실내 무선 측위기술'의 원리"
 author: JH

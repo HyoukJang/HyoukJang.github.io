@@ -1,6 +1,6 @@
 ---
 
-published: true
+published: false
 layout: post
 title: "포지셔널 트래킹 101 - 1강. '측위가 뭐임?'"
 author: JH
