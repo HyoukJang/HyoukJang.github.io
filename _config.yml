@@ -1,13 +1,14 @@
 ### Site info:
 
-title : 장 혁의 이야기 공간
-tagline: "데이터와 이야기를 통해 세상을 바라보고 관찰하는 공학도"
-author: Andrew Hyouk JANG
-email: hyouk.a.jang@gmail.com
-description: "The blog of Andrew JANG"
+title : 장혁의 이야기 공간
+tagline: "Startup, Technology and Data"
+author: Hyouk JANG
+email: hyouk.a.jang {at} gmail {dot} com
+description: "The blog of Hyouk JANG"
 keywords: "Data, Informatics, Mathematics, Physics, R, Python, Virtual Reality, Hardware, Hyouk JANG, Engineer, Entrepreneur"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://hyoukjang.github.io" # the base hostname & protocol for your site
+url: "https://hyoukjang.github.io" # the base hostname & protocol for your site
+shareurl: "https://hyoukjang.github.io"
 locale: en_US
 
 ### Personal info and site tools info:
@@ -18,9 +19,16 @@ google_analytics_key: UA-98488675-1 # put YOUR key here to enable tracking! (bla
 #aboutme: Hi, this is Lijia Yu.  # these are shown on aboutme-sidebar.
 #aboutme_photo: https://i.imgur.com/15BT1.jpg # your photo.
 
+### social plugin
+twitter_username:
+linkedin_username: andrew-hyouk-jang
+google_plus_username:
+facebook_username: hyouk.jang
+dribbble_username:
+
 
 ### Site setting:
-ShowContactInfo: "False" 
+ShowContactInfo: "False"
 default_column: "one" # blog style: two columns, if default_column != "two", you will see a one column blog.
 default_locale: "en" # blog sidebar language set, only include: English(en) and Chinese (cn)
 
@@ -42,8 +50,8 @@ locales:
 ### your Blogroll info, only name can shown on the page.
 
 #Blogroll:
-#    - name: Yihui Xie's Blog       
-#      href: http://yihui.name      
+#    - name: Yihui Xie's Blog
+#      href: http://yihui.name
 #      title: author of knitr, I think he is the Small Forward of R world now.
 
 ### Build settings
@@ -52,6 +60,6 @@ kramdown:
         input: GFM
         syntax_highlighter: rouge
 highlighter: rouge
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 5
 exclude: [Rakefile]

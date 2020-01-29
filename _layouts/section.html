@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="section">
+  <article class="section-content about"> 
+    {{ content }}
+  </article>
+
+  {% if page.comments %}
+  {% include comments.html %}
+  {% endif %}
+
+</div> 

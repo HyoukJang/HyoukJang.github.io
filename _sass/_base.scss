@@ -28,7 +28,7 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, 
+h1, h2, h3, h4,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
@@ -98,6 +98,22 @@ img {
   margin-right: auto;
 }
 
+.video-container{
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height:0;
+  overflow:hidden;
+}
+.video-container iframe,.video-container object,.video-container embed{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+}
+
+
 
 
 /**
@@ -157,17 +173,17 @@ a {
 
 
 .post-content a{
-  color: $brand-color;    
-  text-decoration: none;  
+  color: $brand-color;
+  text-decoration: none;
   border-bottom: 1px dotted;
-  &:visited {             
+  &:visited {
     color: darken($brand-color, 25%);
-  }                       
+  }
 
-  &:hover {               
+  &:hover {
     color: $hover-color;
     text-decoration: none;
-  }  
+  }
 
 }
 
@@ -211,7 +227,7 @@ code {
 
 pre {
   padding: 8px 12px;
-  overflow: auto; 
+  overflow: auto;
 
   > code {
     border: 0;
@@ -282,10 +298,10 @@ pre {
  */
 
 
-table { 
+table {
   padding: 0;
   margin-bottom: 5px;
-  border-collapse: collapse; 
+  border-collapse: collapse;
   font-size: $small-font-size;
 }
 table tr {
@@ -320,7 +336,102 @@ hr{
   border-bottom: 1px dotted #ccc;
 }
 
-cite{ 
+cite{
   font-style: italic;
   text-decoration: underline;
+}
+
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/**
+ * vitae style
+ */
+
+#basic {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+#basic > div > h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#27A822;
+  font-size: 140%;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+#acquisition {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 100%;
+  color: #aa2727;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section > h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#27A822;
+  font-size: 140%;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+
+article {
+  margin-bottom: 20px;
+}
+
+article > header > h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 112%;
+  font-weight: bold;
+  line-height: 150%;
+  margin-bottom: 0;
+  color: inherit;
+}
+
+article > header > span + span {
+  margin-left: 2px;
+}
+
+article > header > span + span::before {
+  content: '@';
+  margin-right: 4px;
+}
+
+article > header > span {
+  color: #808080;
+  font-size: 100%;
+}
+
+article > header > span a {
+  color: inherit;
+}
+
+article > header address {
+  display: inline;
+}
+
+article > header address + time {
+  margin-left: 6px;
+}
+
+article > header address + time::before {
+  content: '—';
+  margin-right: 6px;
 }

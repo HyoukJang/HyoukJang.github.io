@@ -7,6 +7,8 @@
 }
 
 .site-title {
+  display:block;
+  max-width: 100%;
   font-size: 48px;
   line-height: 56px;
   letter-spacing: -1px;
@@ -21,15 +23,24 @@
       text-decoration: none;
     }
   }
+  @include media-query($on-laptop) {
+      font-size: 8vw;
+  }
 }
 
 .site-meta{
+  display:block;
+  max-width: 100%;
   font-size: 20px;
   line-height:56px;
   letter-spacing: -1px;
   margin-bottom: 0;
-  text-align:center; 
+  text-align:center;
   color: $grey-color;
+
+  @include media-query($on-laptop) {
+      font-size: 4vw;
+  }
 }
 
 .site-nav {
@@ -118,7 +129,7 @@
     color: $grey-color-dark;
   }
   li{
-    list-style: none; 
+    list-style: none;
   }
 
 }
@@ -133,7 +144,7 @@
   text-align: center;
   background-color: #f9f9f9;
   border-top: 1px solid $grey-color-light;
-  margin: $spacing-unit 0; 
+  margin: $spacing-unit 0;
   padding: $spacing-unit 0;
   font-size: 14px;
 }
@@ -161,6 +172,9 @@
 .post-link {
   display: block;
   font-size: 38px;//42px;
+  @include media-query($on-laptop) {
+      font-size: 7vw;
+  }
 }
 
 
@@ -184,7 +198,9 @@
   line-height: 1;
 
   @include media-query($on-laptop) {
-    font-size: 36px;
+    font-size: 7vw;
+    font-weight: bold;
+
   }
 }
 
@@ -196,8 +212,8 @@
   padding:20px 15px;
   li{
     padding-top:10px;
-    position:relative; 
-    list-style-type:none;  
+    position:relative;
+    list-style-type:none;
   }
 }
 
@@ -215,7 +231,7 @@
 .post-content {
 
   margin-bottom: $spacing-unit;
-  h1 { 
+  h1 {
     font-size: 38px;
     line-height:1em;
     @include media-query($on-laptop){
@@ -329,20 +345,20 @@ q:after {
  */
 
 ::selection {
-  background:#669900; 
-  color: #fff; 
+  background:#669900;
+  color: #fff;
   text-shadow: none;
 }
 
 ::-moz-selection {
-  background:#669900; 
-  color: #fff; 
+  background:#669900;
+  color: #fff;
   text-shadow: none;
 }
 
 ::-webkit-selection {
-  background:#669900; 
-  color: #fff; 
+  background:#669900;
+  color: #fff;
   text-shadow: none;
 }
 
@@ -386,3 +402,17 @@ a.label-anchor span {
   border-radius: 3px;
 }
 
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
