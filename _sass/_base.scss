@@ -355,3 +355,83 @@ cite{
     width:100%;
     position:absolute;
 }
+
+/**
+ * vitae style
+ */
+
+#basic {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+#basic > div > h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#27A822;
+  font-size: 140%;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+#acquisition {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 100%;
+  color: #aa2727;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section > h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#27A822;
+  font-size: 140%;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+
+article {
+  margin-bottom: 20px;
+}
+
+article > header > h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 112%;
+  font-weight: bold;
+  line-height: 150%;
+  margin-bottom: 0;
+  color: inherit;
+}
+
+article > header > span + span {
+  margin-left: 2px;
+}
+
+article > header > span + span::before {
+  content: '@';
+  margin-right: 4px;
+}
+
+article > header > span {
+  color: #808080;
+  font-size: 100%;
+}
+
+article > header > span a {
+  color: inherit;
+}
+
+article > header address {
+  display: inline;
+}
+
+article > header address + time {
+  margin-left: 6px;
+}
+
+article > header address + time::before {
+  content: '—';
+  margin-right: 6px;
+}
