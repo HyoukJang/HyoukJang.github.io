@@ -1,6 +1,6 @@
 ---
 
-published: false
+published: true
 layout: post
 title: "포지셔널 트래킹 101 - 4강. 'PLS(Polarized Light Sensing) 기술과 실내 측위"
 author: JH

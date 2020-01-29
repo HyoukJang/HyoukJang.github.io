@@ -1,6 +1,6 @@
 ---
 
-published: false
+published: true
 layout: post
 title: "포지셔널 트래킹 101 - 5강. '실내 자율주행 로봇'과 PLS"
 author: JH

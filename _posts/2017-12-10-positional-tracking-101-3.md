@@ -1,6 +1,6 @@
 ---
 
-published: false
+published: true
 layout: post
 title: "포지셔널 트래킹 101 - 3강. '실내 무선 측위기술'의 방식"
 author: JH
