@@ -2,13 +2,13 @@
 
 title : 장혁의 이야기 공간
 tagline: "Startup, Technology and Data"
-author: Andrew Hyouk JANG
-email: hyouk.a.jang@gmail.com
+author: Hyouk JANG
+email: hyouk.a.jang {at} gmail {dot} com
 description: "The blog of Hyouk JANG"
 keywords: "Data, Informatics, Mathematics, Physics, R, Python, Virtual Reality, Hardware, Hyouk JANG, Engineer, Entrepreneur"
-baseurl: "/blog" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://hyoukjang.github.io" # the base hostname & protocol for your site
-shareurl: "https://hyoukjang.github.io/blog"
+shareurl: "https://hyoukjang.github.io"
 locale: en_US
 
 ### Personal info and site tools info:
