@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-title: '코로나19가 불러온 연결의 이동'
+title: '코로나19가 불러온 연결의 변화'
 author: JH
 categories: think
 tags: corona corona19 코로나 
