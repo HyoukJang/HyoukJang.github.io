@@ -1,14 +1,11 @@
 <section class="thirteen columns">
 <br>
 <div id="basic">
-    <div>
+    <!-- <div>
         <img src="{{ site.baseurl }}/images/profile.PNG" class="me">
-    </div>  
+    </div>   -->
     <div>  
-    <h1>{{ site.author }}</h1>
-        <p>
-            <a href="{{site.baseurl}}/cv/cv.pdf" target="_blank">PDF link</a>
-        </p>
+    <h1><a href="{{site.baseurl}}/cv/cv.pdf" target="_blank">{{ site.author | append: ", 장 혁"}}</a></h1>
     </div>
 </div>
 </section>

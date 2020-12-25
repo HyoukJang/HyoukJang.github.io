@@ -367,17 +367,15 @@ cite{
 
 #basic > div > h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color:#27A822;
+  color:#000000;
   font-size: 140%;
   line-height: 120%;
-  text-transform: uppercase;
+  // border-top: 1px solid #e8e8e8;
+  // border-bottom: 1px solid #e8e8e8;
+  // text-transform: uppercase;
 }
 
-#acquisition {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 100%;
-  color: #aa2727;
-}
+
 
 section {
   margin-bottom: 20px;
@@ -385,28 +383,29 @@ section {
 
 section > h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color:#27A822;
+  color:#000000;
   font-size: 140%;
   line-height: 120%;
-  text-transform: uppercase;
+  // text-transform: uppercase;
 }
 
 
 article {
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 article > header > h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 112%;
-  font-weight: bold;
+  font-size: 100%;
+  // font-weight: bold;
   line-height: 150%;
   margin-bottom: 0;
   color: inherit;
 }
 
 article > header > span + span {
-  margin-left: 2px;
+  margin-left: px;
 }
 
 article > header > span + span::before {
@@ -415,8 +414,9 @@ article > header > span + span::before {
 }
 
 article > header > span {
+  margin-left: 6px;
   color: #808080;
-  font-size: 100%;
+  font-size: 50%;
 }
 
 article > header > span a {
@@ -434,4 +434,15 @@ article > header address + time {
 article > header address + time::before {
   content: '—';
   margin-right: 6px;
+}
+
+article > p {
+  font-family: inherit;
+  font-size: 80%;
+}
+
+article > p a {
+  // font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: inherit;
+  color: #aa2727;
 }
