@@ -24,7 +24,7 @@
     }
   }
   @include media-query($on-laptop) {
-      font-size: 8vw;
+      // font-size: 8vw;
   }
 }
 
@@ -39,7 +39,7 @@
   color: $grey-color;
 
   @include media-query($on-laptop) {
-      font-size: 4vw;
+      // font-size: 4vw;
   }
 }
 
@@ -171,9 +171,9 @@
 
 .post-link {
   display: block;
-  font-size: 38px;//42px;
+  font-size: 30px;//42px;
   @include media-query($on-laptop) {
-      font-size: 7vw;
+      // font-size: 7vw;
   }
 }
 
@@ -198,8 +198,8 @@
   line-height: 1;
 
   @include media-query($on-laptop) {
-    font-size: 7vw;
-    font-weight: bold;
+    // font-size: 7vw;
+    // font-weight: bold;
 
   }
 }
