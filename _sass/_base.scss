@@ -389,10 +389,15 @@ section > h1 {
   // text-transform: uppercase;
 }
 
+section > article {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
 
 article {
   margin-bottom: 20px;
-  margin-left: 20px;
+  // margin-left: 20px;
 }
 
 article > header > h1 {
@@ -436,9 +441,14 @@ article > header address + time::before {
   margin-right: 6px;
 }
 
-article > p {
+section > article > p {
   font-family: inherit;
   font-size: 80%;
+}
+
+article > p {
+  font-family: inherit;
+  font-size: 100%;
 }
 
 article > p a {
